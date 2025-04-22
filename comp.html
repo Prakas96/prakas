@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Sales & Services</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Roboto', sans-serif; background: #f1f5f9; color: #333; }
+    header { background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: #fff; padding: 40px 20px; text-align: center; }
+    header img { width: 100px; height: auto; display: block; margin: 0 auto 15px; }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 10px; font-size: 1.2rem; }
+    nav { background: #1f2937; display: flex; justify-content: center; flex-wrap: wrap; }
+    nav a { color: #f9fafb; padding: 14px 24px; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+    nav a:hover { background: #374151; }
+    section { padding: 50px 25px; max-width: 900px; margin: 30px auto; background: #fff; border-radius: 15px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); }
+    section h2 { color: #1e40af; margin-bottom: 20px; font-size: 2rem; border-bottom: 2px solid #1e40af; padding-bottom: 10px; }
+    section p, section ul { font-size: 1.1rem; margin-bottom: 15px; line-height: 1.6; }
+    section ul { padding-left: 20px; }
+    section ul li { margin-bottom: 10px; }
+    .brand-gallery, .branch-gallery { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; margin-top: 20px; }
+    .brand-gallery img { width: 80px; height: auto; border-radius: 8px; background: #e2e8f0; }
+    .branch-gallery img { width: 200px; height: auto; border-radius: 8px; background: #e2e8f0; }
+    footer { text-align: center; padding: 25px; background: #1f2937; color: #fff; font-size: 0.9rem; }
+    @media (max-width: 768px) {
+      nav { flex-direction: column; }
+      section { padding: 30px 15px; }
+      .brand-gallery img { width: 60px; }
+      .branch-gallery img { width: 150px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.jpg" alt="Company Logo">
+    <h1>Computer Sales & Services</h1>
+    <p>Your one-stop shop for top-quality PCs and expert support</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#brands">Brands</a>
+    <a href="#branches">Branches</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Computer Sales & Services</h2>
+    <p>Discover the latest computers and expert repair services. We bring you top models from leading brands with unparalleled support.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We specialize in selling premium desktops and laptops, offering reliable repair and upgrade services. Our decade-plus experience ensures customer satisfaction and trust.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Computer Sales (Desktops & Laptops)</li>
+      <li>Hardware Repair & Upgrades</li>
+      <li>Software Installation & Troubleshooting</li>
+      <li>Virus & Malware Removal</li>
+      <li>Networking Setup & Consultation</li>
+    </ul>
+  </section>
+
+  <section id="brands">
+    <h2>Brands We Offer</h2>
+    <div class="brand-gallery">
+        <img src="apple.jpg" alt="Apple Logo">
+        <img src="hp.jpg" alt="HP Logo">
+        <img src="dell.jpg" alt="Dell Logo">
+        <img src="lenovo.jpg" alt="Lenovo Logo">
+        <img src="asus.jpg" alt="Asus Logo">
+        <img src="acer.jpg" alt="Acer Logo">
+      </div>
+  </section>
+
+  <section id="branches">
+    <h2>Our Branches</h2>
+    <ul>
+      <li>Vijayapura</li>
+      <li>Bengaluru</li>
+      <li>Athani</li>
+      <li>Gulburga</li>
+      <li>Belgaum</li>
+      <li>Hubli</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> 3dwebsoft.inc@gmail.com</p>
+    <p><strong>Phone:</strong> +91 9108534041</p>
+    <p><strong>Address:</strong> Darga Road, Opposite Sangoli Rayanna Circle, H.N:54-586103</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Computer Sales & Services. All rights reserved.</p>
+  </footer>
+</body>
+</html>
